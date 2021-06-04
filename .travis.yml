@@ -27,7 +27,7 @@ after_success:
   - docker push lucasgmm20/multi-server
   - docker push lucasgmm20/multi-worker
 
-# for deployment
+# for deployment!
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
